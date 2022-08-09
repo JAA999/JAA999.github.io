@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+.Contact{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Contact-title{
+    color: white;
+    font-size: 7vh;
+}
