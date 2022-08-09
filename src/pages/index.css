@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+.App {
+  font-family: 'Oswald', sans-serif;
+  background-color: #9ECEFB;
+  color: #4286C6;
+}
+
+.view{
+  min-height: 92vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  border-bottom: 1px solid #156DC6;
+  font-size: calc(10px + 2vmin);
+}
+
+.title{color: #156DC6}
+
+#instagram{position: fixed; bottom: 3vh; right: 9vw;}
+#linkedin{position: fixed; bottom: 3vh; right:6vw;}
+#github{position: fixed; bottom: 3vh; right: 3vw;}
+
+.app-perform{
+  width: calc(10px + 8vmin);
+  height: 100vh;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #28537A;
+  border-right: 1px solid #9ECEFB;
+}
+
+.app-perform p{
+  rotate: 270deg;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+#Home{
+  font-size: calc(10px + 2vmin);
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  margin-left: 10vw;
+}
+
+/*Landing Page*/
+
+.app-header{display: flex; justify-content: center;}
+
+.logo{width: 50vw;} /*Temporary placeholder for logo*/
+
+.header-title{display: flex; flex-direction: column;}
+
+#title-first{margin: 0; font-size: 10vw;}
+
+/*Landing Page*/
+/*Roadmap Page*/
+
+.app-about{flex-direction: column;}
+
+.about-title{margin-top: 6vh; font-size: calc(30px + 2vmin);}
+
+.about-content{
+  display: flex;
+  margin-bottom: 6vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-bio{
+  width: 50vh;
+  font-size: calc(7px + 2vmin);
+  text-align: center;
+  line-height: 40px;
+  color: #4286C6;
+}
+
+.about-image-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 50vh;
+}
+
+
+/*Roadmap Page*/
+/*Skills Page*/
+.app-skills{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skills-title{font-size: calc(30px + 2vmin); display: flex; justify-content: center;}
+
+.skills-content{display: flex; list-style: none; font-size: calc(10px + 2vmin);}
+
+.skills-list, .skills-experience{list-style: none; padding: 0vh 10vh;}
+/*Skills Page*/
+/*Projects Page*/
+
+.app-projects{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 4.4rem 10%;
+}
+
+.bu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16.66rem;
+  margin: 0 .5rem 2.3rem .5rem;
+}
+
+.projects-header{
+  display: flex;
+  flex-direction: column;
+  padding: 0 2vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-title{font-size: calc(30px + 2vmin); margin: 10vh 0;}
+
+.three-projects{ 
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  text-align: center;
+  width: 16.66rem;
+  margin: 0 .5rem 2.3rem .5rem;
+  font-size: calc(9px + 2vmin);
+}
+
+/*Projects Page*/
+/*Footer*/
+
+.app-footer{min-height: 30vh;}
