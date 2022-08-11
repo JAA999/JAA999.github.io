@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css';
 import {AiFillInstagram, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
-import {BsLaptopFill, BsArrowRightShort} from 'react-icons/bs';
+import {BsLaptopFill} from 'react-icons/bs';
 import {IconContext} from 'react-icons';
-import NewProject from '../components/newproject';
+import NewProject from '../../components/newproject';
 
 const Home = () => {
 
@@ -24,16 +24,6 @@ const Home = () => {
               <a href='https://www.linkedin.com/in/joseph-arteaga-597282248/' target='_blank'><AiFillLinkedin id='linkedin'/></a>
               <a href='https://github.com/JAA999' target='_blank'><AiFillGithub id='github'/></a>
             </IconContext.Provider>
-
-            <div className='app-perform'>
-              <IconContext.Provider value={{color: 'white', className: 'arrows', size:'2em'}}>
-                <BsArrowRightShort/>
-                <br></br>
-                <p>Perform</p>
-                <br></br>
-                <BsArrowRightShort/>
-              </IconContext.Provider>
-            </div>
 
             <div className='app-about view'>
                 <p className='about-title title'>About Me</p>

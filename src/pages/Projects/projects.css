@@ -1,0 +1,16 @@
+.app-perform{
+    width: calc(10px + 8vmin);
+    height: 92vh;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #28537A;
+    border-right: 1px solid #9ECEFB;
+  }
+  
+  .app-perform p{rotate: 270deg; color: white; font-size: calc(10px + 2vmin);}

@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages';
-import About from './pages/about';
-import Contact from './pages/contact';
-import Projects from './pages/projects';
+import Home from './pages/Home';
+import About from './pages/About/about';
+import Contact from './pages/Contact/contact';
+import Projects from './pages/Projects/projects';
 
 
 function App() {
