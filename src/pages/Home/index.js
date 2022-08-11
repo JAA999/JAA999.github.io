@@ -12,36 +12,38 @@ const Home = () => {
     return(
         <div className="App">
 
-            <header className="app-header view">
-                <p className="header-title"><p className='title' id='title-first'>Hello,</p> My Name Is Joseph Arteaga, And I Am a CS Major At UT Austin.</p>
+            <header className="app-header content horizontal-content">
+                <p><p className='title' id='title-first'>Hello,</p> My Name Is Joseph Arteaga, And I Am a CS Major At UT Austin.</p>
                 <IconContext.Provider value={{className:'logo', size: '10em'}}>
                   <BsLaptopFill/>
                 </IconContext.Provider>
             </header>
 
+            {/*
             <IconContext.Provider value={{color: '#156DC6', className: 'social-icons', size:'2em'}}>
               <a href='https://www.instagram.com/josephart999/' target='_blank'><AiFillInstagram id='instagram'/></a>
               <a href='https://www.linkedin.com/in/joseph-arteaga-597282248/' target='_blank'><AiFillLinkedin id='linkedin'/></a>
               <a href='https://github.com/JAA999' target='_blank'><AiFillGithub id='github'/></a>
             </IconContext.Provider>
+            */}
 
-            <div className='app-about view'>
-                <p className='about-title title'>About Me</p>
-                <div className='about-content'>
-                  <div className='about-content-cont'>
+            <div className='app-about content vertical-content'>
+                <p className='title'>About Me</p>
+                <div className='about-container horizontal-content'>
+                  <div className='about-content'>
                     <p className='about-bio'>Having come from a family of engineers, from a young age I would develop an interest in the STEM field.
-                        Not wanting to deal with the demand of physical labor, and seeing many "cool" representations of hacking in movies, I began to practice programming.
-                        In the past few years I have worked with Python, JS, Java, and mobile and web development, but I am now dedicating my time to python and mobile development.
-                        By perfecting my skills in both of these fields I hope to create my own app with machine learning at its core to help people lead better lives.
+                      Not wanting to deal with the demand of physical labor, and seeing many "cool" representations of hacking in movies, I began to practice programming.
+                      In the past few years I have worked with Python, JS, Java, and mobile and web development, but I am now dedicating my time to python and mobile development.
+                      By perfecting my skills in both of these fields I hope to create my own app with machine learning at its core to help people lead better lives.
                     </p>
                   </div>
-                  <div className='about-image-cont'>
-                    <img className='about-image' src='/josephart.jpg' alt="Joseph Arteaga" width='170px' height='400px'/>
+                  <div className='about-content'>
+                    <img className='about-image' src='/josephart.JPEG' alt="Joseph Arteaga" width='300px' height='400px'/>
                   </div>
                 </div>
             </div>
 
-            <div className="app-skills view">
+            <div className="app-skills content horizontal-content">
                 <h1 className='skills-title title'>Skills</h1>
                 <div className='skills-content'>
                   <ul className='skills-list'>
@@ -59,15 +61,19 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='app-projects'>
-                <div className="projects-header">
-                    <p className='projects-title title'>Featured Projects</p>
-                    <div className='three-projects'>
-                      <NewProject title='Carbon Footprint Reduction' year='2022' primaryLang='HTML'/>
-                      <NewProject title='Portfolio Website' year='2022' primaryLang='JSX'/>
-                      <NewProject title='Discord Bot' year='2021' primaryLang='Python'/>
-                    </div>
+            <div className='app-projects content vertical-content'>
+              <p className='projects-title title'>Featured Projects</p>
+              <div className='project-container horizontal-content'>
+                <div className='project'>
+                  <NewProject title='Carbon Reduction' year='2022' primaryLang='HTML' src='/cfrlogo.png'/>
                 </div>
+                <div className='project'>
+                  <NewProject title='Portfolio Website' year='2022' primaryLang='JSX'/>
+                </div>
+                <div className='project'>
+                  <NewProject title='Discord Bot' year='2021' primaryLang='Python'/>
+                </div>
+              </div>
             </div>
 
             <div className='app-footer'>
