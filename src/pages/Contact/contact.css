@@ -3,11 +3,25 @@
 .Contact{
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    font-family: 'Oswald', sans-serif;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #9ECEFB;
+    color: whitesmoke
 }
 
-.Contact-title{
-    color: white;
-    font-size: 7vh;
+.email, .social-media{text-align: center; align-items: center;}
+
+.email-link{text-decoration: none; color: whitesmoke; font-size: calc(10px + 2vmin);}
+
+.section-titles{font-size: calc(20px + 3vmin);}
+
+.separator{
+    height: 50vh;
+    width: 1px;
+    background-color: whitesmoke;
+    align-items: center;
 }
+

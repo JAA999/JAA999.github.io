@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import {AiFillInstagram, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import {BsLaptopFill} from 'react-icons/bs';
 import {IconContext} from 'react-icons';
 import NewProject from '../../components/newproject';
@@ -18,14 +17,6 @@ const Home = () => {
                   <BsLaptopFill/>
                 </IconContext.Provider>
             </header>
-
-            {/*
-            <IconContext.Provider value={{color: '#156DC6', className: 'social-icons', size:'2em'}}>
-              <a href='https://www.instagram.com/josephart999/' target='_blank'><AiFillInstagram id='instagram'/></a>
-              <a href='https://www.linkedin.com/in/joseph-arteaga-597282248/' target='_blank'><AiFillLinkedin id='linkedin'/></a>
-              <a href='https://github.com/JAA999' target='_blank'><AiFillGithub id='github'/></a>
-            </IconContext.Provider>
-            */}
 
             <div className='app-about content vertical-content'>
                 <p className='title'>About Me</p>
