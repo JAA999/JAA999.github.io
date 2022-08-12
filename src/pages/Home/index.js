@@ -2,7 +2,8 @@ import React from 'react';
 import './index.css';
 import {BsLaptopFill} from 'react-icons/bs';
 import {IconContext} from 'react-icons';
-import NewProject from '../../components/newproject';
+import Project from '../../components/Projects Page/Project/project';
+import { createProject } from '../Projects/projects';
 
 const Home = () => {
 
@@ -56,13 +57,13 @@ const Home = () => {
               <p className='projects-title title'>Featured Projects</p>
               <div className='project-container horizontal-content'>
                 <div className='project'>
-                  <NewProject title='Carbon Reduction' year='2022' primaryLang='HTML' src='/cfrlogo.png'/>
+                  <Project project={carbon}/>
                 </div>
                 <div className='project'>
-                  <NewProject title='Portfolio Website' year='2022' primaryLang='JSX'/>
+                  <Project project={portfolio}/>
                 </div>
                 <div className='project'>
-                  <NewProject title='Discord Bot' year='2021' primaryLang='Python'/>
+                  <Project project={discord}/>
                 </div>
               </div>
             </div>
@@ -89,5 +90,11 @@ function updateDate(skill, currentPeriod){
     return currentPeriod;
   }
 };
+
+const carbon = createProject('./cfrlogo.png', 'Carbon Reduction', 'HTML', 'CSS', 2022, '');
+const discord = createProject('./cfrlogo.png', 'Discord Bot', 'Python', 'N/A', 2021, '');
+const portfolio = createProject('./cfrlogo.png', 'Porfolio Website', 'JSX', 'CSS', 2022, '');
+
+
 
 export default Home;

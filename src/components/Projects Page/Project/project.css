@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+.project{
+    margin: 2em 1.2em;
+    padding: calc(5px + 1vmin);
+    background-color: #4286C6; 
+    color: whitesmoke;
+    font-family:'Montserrat', sans-serif;
+    font-size: calc(6px + 2vmin);
+}
+
+.image-container{height: 10rem;}
+
+.languages{text-align: center;}
