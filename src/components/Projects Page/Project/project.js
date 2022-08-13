@@ -10,12 +10,18 @@ class Project extends React.Component {
                 <div className='image-container'>
                     <img src={this.props.project.src} alt={`${this.props.project.title} Project`}/>
                 </div>
-                <h3>{this.props.project.title}</h3>
-                <div className='languages'>
-                    <p>Primary Language: <b>{this.props.project.primary}</b></p>
-                    <p>Secondary Language: <b>{this.props.project.secondary}</b></p>
+                <h3 className='project-title'>{this.props.project.title}</h3>
+                <div className='project-info'>
+                    <div className='project-languages'>
+                        <p id='languages-title'>Languages</p>
+                        <p>{this.props.project.primary}</p>
+                        <p>{this.props.project.secondary}</p>
+                    </div>
+                    <div className='project-date'>
+                        <p id='date-title'>Date</p>
+                        <p>{this.props.project.year}</p>
+                    </div>
                 </div>
-                <p>Created In: {this.props.project.year}</p>
             </div>
         );
     }
