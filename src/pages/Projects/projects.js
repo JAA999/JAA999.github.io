@@ -8,10 +8,10 @@ import ProjectsList from '../../components/Projects Page/Projects List/projectsL
 const Projects = () => {
     return (
         <div className='projects-page'>
-            <IconContext.Provider value={{className: 'icons', size: '2em', color: 'whitesmoke'}}>
+            {/*<IconContext.Provider value={{className: 'icons', size: '2em', color: 'whitesmoke'}}>
               <BiFilter/>
               <BiSearch/>
-            </IconContext.Provider>
+            </IconContext.Provider>*/}
             <ProjectsList projects={projects}/> 
         </div>
     );
