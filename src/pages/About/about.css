@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+.about-page{
+    height: 100vh;
+    background-color: #F0FA84;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+    padding: 10vh 20vh;
+}
+
+.header{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-title{
+    background-color: #9ECEFB;
+    height: fit-content;
+    padding: 2vw;
+}
+
+.about-page-image{
+    background-size: contain;
+    height: calc(20px + 40vmin);
+    width: calc(20px + 40vmin);
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
