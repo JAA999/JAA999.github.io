@@ -14,7 +14,7 @@
     height: 25rem;
 }
 
-.project:hover{transform: translate(0px, -10px); box-shadow: 2px 2px 5px black;}
+.project:hover{box-shadow: 2px 2px 5px black;}
 
 .image-container{display: flex; height: 15rem; margin-bottom: 2%; align-items: center;}
 
