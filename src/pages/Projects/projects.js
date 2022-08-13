@@ -1,13 +1,17 @@
 import React from 'react';
 import './projects.css';
-import {BsArrowRightShort} from 'react-icons/bs';
 import {IconContext} from 'react-icons';
+import {BiSearch, BiFilter} from 'react-icons/bi';
 import ProjectsList from '../../components/Projects Page/Projects List/projectsList';
 
 
 const Projects = () => {
     return (
         <div className='projects-page'>
+            <IconContext.Provider value={{className: 'icons', size: '2em', color: 'whitesmoke'}}>
+              <BiFilter/>
+              <BiSearch/>
+            </IconContext.Provider>
             <ProjectsList projects={projects}/> 
         </div>
     );

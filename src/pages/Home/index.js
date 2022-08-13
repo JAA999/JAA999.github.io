@@ -68,9 +68,9 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='app-footer'>
+            {/*<div className='app-footer'>
 
-            </div>
+            </div>*/}
 
         </div>
     );
