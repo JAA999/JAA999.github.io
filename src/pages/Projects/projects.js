@@ -31,8 +31,9 @@ export const createProject = (imageSrc, title, primaryLang, secondaryLang, year,
 const carbon = createProject('./cfrlogo.png', 'Carbon Reduction', 'HTML', 'CSS', 2022, '');
 const discord = createProject('./cfrlogo.png', 'Discord Bot', 'Python', 'N/A', 2021, '');
 const portfolio = createProject('./cfrlogo.png', 'Porfolio Website', 'JSX', 'CSS', 2022, '');
+const random = createProject('./cfrlogo.png', ' Random', 'JSX', 'Python', 2022, '');
 
-const projects = [carbon, discord, portfolio];
+const projects = [carbon, discord, portfolio, random];
 
 
 export default Projects;
