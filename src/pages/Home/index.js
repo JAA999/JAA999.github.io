@@ -56,13 +56,13 @@ const Home = () => {
             <div className='app-projects content vertical-content'>
               <p className='projects-title title'>Featured Projects</p>
               <div className='project-container horizontal-content'>
-                <div className='project'>
+                <div>
                   <Project project={carbon}/>
                 </div>
-                <div className='project'>
+                <div>
                   <Project project={portfolio}/>
                 </div>
-                <div className='project'>
+                <div>
                   <Project project={discord}/>
                 </div>
               </div>
