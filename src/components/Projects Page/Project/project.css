@@ -4,12 +4,13 @@
     margin: 2em 1.2em;
     padding: calc(10px + 1vmin);
     border-radius: 20px;
-    background-color: #4286C6; 
+    background-color: #9ECEFB; 
     color: whitesmoke;
     font-family:'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 2px solid whitesmoke;
     width: 17rem;
     height: 25rem;
 }
