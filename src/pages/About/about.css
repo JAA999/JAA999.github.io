@@ -2,8 +2,8 @@
 
 .about-page{
     height: 100vh;
-    background-color: #F0FA84;
-    color: black;
+    background-color: #9ECEFB;
+    color: #4286C6;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
@@ -16,16 +16,23 @@
     justify-content: space-between;
 }
 
-.about-title{
-    background-color: #9ECEFB;
+.about-page-title{
+    color: #156DC6;
+    font-size: calc(20px + 3vmin);
     height: fit-content;
     padding: 2vw;
+}
+
+.about-page-intro{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    padding: 0 2vw;
 }
 
 .about-page-image{
     background-size: contain;
     height: calc(20px + 40vmin);
     width: calc(20px + 40vmin);
-    border-right: 5px solid white;
-    border-bottom: 5px solid white;
 }
