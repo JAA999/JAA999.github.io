@@ -1,8 +1,9 @@
 import React from 'react';
 import './projects.css';
-import {IconContext} from 'react-icons';
-import {BiSearch, BiFilter} from 'react-icons/bi';
 import ProjectsList from '../../components/Projects Page/Projects List/projectsList';
+{/*import {IconContext} from 'react-icons';
+import {BiSearch, BiFilter} from 'react-icons/bi';
+import { AiOutlineProject } from 'react-icons/ai';*/}
 
 
 const Projects = () => {
@@ -17,23 +18,23 @@ const Projects = () => {
     );
 };
 
-export const createProject = (imageSrc, title, primaryLang, secondaryLang, year, description) => {
+export const createProject = (imageSrc, title, primaryLang, secondaryLang, year, description, link) => {
   return{
     src: imageSrc,
     title,
     primary: primaryLang,
     secondary: secondaryLang,
     year,
-    description
+    description,
+    link
   }
 };
 
-const carbon = createProject('./cfrlogo.png', 'Carbon Reduction', 'HTML', 'CSS', 2022, '');
-const discord = createProject('./cfrlogo.png', 'Discord Bot', 'Python', 'N/A', 2021, '');
-const portfolio = createProject('./cfrlogo.png', 'Porfolio Website', 'JSX', 'CSS', 2022, '');
-const random = createProject('./cfrlogo.png', ' Random', 'JSX', 'Python', 2022, '');
+const carbonv1 = createProject('./cfrlogo.png', 'Carbon Reduction v1', 'HTML', 'CSS', 2021, 'Website that displays tips and tricks to reduce your carbon footprint.', 'https://github.com/JAA999/CarbonFootprintReduction');
+const carbonv2 = createProject('./cfrlogo.png', 'Carbon Reduction v2', 'HTML', 'CSS', 2022, 'Website that displays tips and tricks to reduce your carbon footprint. Consists of multiple pages.', 'https://github.com/JAA999/CarbonFootprintReduction-v2.0');
+const portfolio = createProject('', 'Porfolio Website', 'JSX', 'CSS', 2022, 'This website, created using React.js.', 'https://github.com/JAA999/arteaga-portfolio');
 
-const projects = [carbon, discord, portfolio, random];
+export const projects = [carbonv1, carbonv2, portfolio];
 
 
 export default Projects;

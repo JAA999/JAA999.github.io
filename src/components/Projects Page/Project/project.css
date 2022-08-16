@@ -2,7 +2,7 @@
 
 .project{
     margin: 2em 1.2em;
-    padding: calc(10px + 1vmin);
+    padding: calc(10px + 2vmin);
     border-radius: 20px;
     background-color: #9ECEFB; 
     color: whitesmoke;
@@ -12,19 +12,86 @@
     justify-content: space-between;
     border: 2px solid whitesmoke;
     width: 17rem;
-    height: 25rem;
+    height: 40rem;
 }
 
-.project:hover{box-shadow: 2px 2px 5px whitesmoke;}
+.image-container{
+    display: flex; 
+    height: 10rem; 
+    margin: 5%; 
+    align-items: center; 
+    justify-content: center;
+}
 
-.image-container{display: flex; height: 15rem; margin-bottom: 2%; align-items: center;}
+.project-title{
+    font-weight: 600; 
+    font-size: calc(8px + 2vmin);
+    height: 5rem;
+    text-align: center;
+    margin: 1rem .2rem;
+}
 
-.project-title{font-weight: 600; font-size: calc(10px + 2vmin);}
+.project-info{
+    display: flex; 
+    width: 16rem; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: 0;
+}
 
-.project-info{display: flex; width: 16rem; justify-content: space-around;}
+.project-info p{
+    line-height: .2; 
+    font-size: calc(5px + 2vmin); 
+    font-weight: 300;
+}
 
-.project-info p{line-height: .2; font-size: calc(5px + 2vmin); font-weight: 300;}
+.divider{
+    height: 10vh; 
+    width: 1px; 
+    background-color: white;
+}
 
-.project-date{ display: flex; flex-direction: column; align-items: center; color: white; }
+.project-date{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    color: white;
+}
 
-#languages-title, #date-title{color: #1C4D7A; font-size: calc(7px + 2vmin)}
+#languages-title, #date-title{
+    color: #1C4D7A; 
+    font-size: calc(7px + 2vmin);
+}
+
+.project-description{
+    font-size: calc(6px + 2vmin);
+    width: 16rem;
+    height: 10rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+}
+
+.project-no-link{height: 2rem;}
+.project-link{height: 3rem;}
+
+.project-no-link{
+    font-size: calc(5px + 2vmin);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.project-link a{
+    font-size: calc(6px + 2vmin);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.project-link a:hover{
+    color:#1C4D7A;
+    transition: 1s ease-out;
+}

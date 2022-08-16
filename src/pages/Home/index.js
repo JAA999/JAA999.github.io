@@ -57,13 +57,13 @@ const Home = () => {
               <p className='projects-title title'>Featured Projects</p>
               <div className='project-container horizontal-content'>
                 <div>
-                  <Project project={carbon}/>
+                  <Project project={carbonv1}/>
+                </div>
+                <div>
+                  <Project project={carbonv2}/>
                 </div>
                 <div>
                   <Project project={portfolio}/>
-                </div>
-                <div>
-                  <Project project={discord}/>
                 </div>
               </div>
             </div>
@@ -91,9 +91,9 @@ function updateDate(skill, currentPeriod){
   }
 };
 
-const carbon = createProject('./cfrlogo.png', 'Carbon Reduction', 'HTML', 'CSS', 2022, '');
-const discord = createProject('./cfrlogo.png', 'Discord Bot', 'Python', 'N/A', 2021, '');
-const portfolio = createProject('./cfrlogo.png', 'Porfolio Website', 'JSX', 'CSS', 2022, '');
+const carbonv1 = createProject('./cfrlogo.png', 'Carbon Reduction v1', 'HTML', 'CSS', 2021, 'Website that displays tips and tricks to reduce your carbon footprint.', 'https://github.com/JAA999/CarbonFootprintReduction');
+const carbonv2 = createProject('./cfrlogo.png', 'Carbon Reduction v2', 'HTML', 'CSS', 2022, 'Website that displays tips and tricks to reduce your carbon footprint. Consists of multiple pages.', 'https://github.com/JAA999/CarbonFootprintReduction-v2.0');
+const portfolio = createProject('', 'Porfolio Website', 'JSX', 'CSS', 2022, 'This website, created using React.js.', 'https://github.com/JAA999/arteaga-portfolio');
 
 
 
