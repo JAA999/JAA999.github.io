@@ -27,10 +27,6 @@ class Project extends React.Component {
     }
 };
 
-Project.defaultProps = {
-    src: <IconContext.Provider value={{color: 'whitesmoke', size: '48%'}}><AiOutlineProject/></IconContext.Provider>
-}
-
-
+Project.defaultProps = {src: <IconContext.Provider value={{color: 'whitesmoke', size: '48%'}}><AiOutlineProject/></IconContext.Provider>}
 
 export default Project;
