@@ -13,10 +13,8 @@ const Home = () => {
         <div className="App">
 
             <header className="app-header content horizontal-content">
-                <p><p className='title' id='title-first'>Hello,</p> My Name Is Joseph Arteaga, And I Am a CS Major At UT Austin.</p>
-                <IconContext.Provider value={{className:'logo', size: '10em'}}>
-                  <BsLaptopFill/>
-                </IconContext.Provider>
+                <p><p className='title landing-title' id='title-first'>Hello,</p> My Name Is Joseph Arteaga, And I Am a CS Major At UT Austin.</p>
+                <img className='logo' src='/Logo.png'/>
             </header>
 
             <div className='app-about content vertical-content'>
