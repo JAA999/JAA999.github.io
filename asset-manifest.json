@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/arteaga-portfolio/static/css/main.854d8638.css",
-    "main.js": "/arteaga-portfolio/static/js/main.14ae9d79.js",
-    "static/js/787.4cd8095d.chunk.js": "/arteaga-portfolio/static/js/787.4cd8095d.chunk.js",
-    "index.html": "/arteaga-portfolio/index.html",
-    "main.854d8638.css.map": "/arteaga-portfolio/static/css/main.854d8638.css.map",
-    "main.14ae9d79.js.map": "/arteaga-portfolio/static/js/main.14ae9d79.js.map",
-    "787.4cd8095d.chunk.js.map": "/arteaga-portfolio/static/js/787.4cd8095d.chunk.js.map"
+    "main.css": "/static/css/main.854d8638.css",
+    "main.js": "/static/js/main.e9b1c3ba.js",
+    "static/js/787.4cd8095d.chunk.js": "/static/js/787.4cd8095d.chunk.js",
+    "index.html": "/index.html",
+    "main.854d8638.css.map": "/static/css/main.854d8638.css.map",
+    "main.e9b1c3ba.js.map": "/static/js/main.e9b1c3ba.js.map",
+    "787.4cd8095d.chunk.js.map": "/static/js/787.4cd8095d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.854d8638.css",
-    "static/js/main.14ae9d79.js"
+    "static/js/main.e9b1c3ba.js"
   ]
 }
