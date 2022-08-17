@@ -32,7 +32,7 @@ export const createProject = (imageSrc, title, primaryLang, secondaryLang, year,
 
 const carbonv1 = createProject('/images/cfrlogo.png', 'Carbon Reduction v1', 'HTML', 'CSS', 2021, 'Website that displays tips and tricks to reduce your carbon footprint.', 'https://github.com/JAA999/CarbonFootprintReduction');
 const carbonv2 = createProject('/images/cfrlogo.png', 'Carbon Reduction v2', 'HTML', 'CSS', 2022, 'Website that displays tips and tricks to reduce your carbon footprint. Consists of multiple pages.', 'https://github.com/JAA999/CarbonFootprintReduction-v2.0');
-const portfolio = createProject('/images/Logo.png', 'Porfolio Website', 'JSX', 'CSS', 2022, 'This website, created using React.js.', 'https://github.com/JAA999/arteaga-portfolio');
+const portfolio = createProject('/images/Logo.png', 'Porfolio Website', 'JSX', 'CSS', 2022, 'This website, created using React.js.', 'https://github.com/JAA999/JAA999.github.io');
 
 export const projects = [carbonv1, carbonv2, portfolio];
 
