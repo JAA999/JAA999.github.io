@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
 
 .project{
-    margin: 2em 1.2em;
+    margin: 3.3em 1.2em;
     padding: calc(10px + 2vmin);
     border-radius: 20px;
     background-color: #9ECEFB; 
@@ -64,7 +64,7 @@
 }
 
 .project-description{
-    font-size: calc(6px + 2vmin);
+    font-size: calc(3px + 2vmin);
     width: 16rem;
     height: 10rem;
     text-align: center;
