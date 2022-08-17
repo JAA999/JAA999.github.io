@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
 
 .about-page{
-    height: 100vh;
     background-color: #9ECEFB;
     color: #4286C6;
     font-family: 'Montserrat', sans-serif;
@@ -11,28 +10,57 @@
     padding: 10vh 20vh;
 }
 
-.header{ 
+.about-hobbies, .about-overview, .about-links{margin-bottom: 5rem;}
+
+.hobbies-content-title, .overview-content-title{text-align: center;}
+
+.overview-text, .hobbies-text{width: 40rem; font-size: calc(5px + 2vmin);}
+
+.overview-text{text-align: right;}
+
+.hobbies-text{text-align: left;}
+
+.overview-image, .hobbies-image{
+    background-size: contain;
+    height: calc(20px + 20vmin);
+    width: calc(20px + 20vmin);
+}
+
+.hobbies-content, .overview-content{display: flex; flex-direction: column; flex-wrap: wrap;}
+
+.overview-content, .hobbies-content{display: flex; flex-direction: row; justify-content: space-around;}
+
+.about-links{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.about-page-title{
-    color: #156DC6;
-    font-size: calc(20px + 3vmin);
-    height: fit-content;
-    padding: 2vw;
+.about-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.about-page-intro{
+.music-links, .current-read{
     display: flex;
     flex-direction: column;
-    text-align: right;
-    align-items: flex-end;
-    padding: 0 2vw;
+    justify-content: center;
+    align-items: center;
 }
 
-.about-page-image{
-    background-size: contain;
-    height: calc(20px + 40vmin);
-    width: calc(20px + 40vmin);
+.music-links a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
+
+.current-read-content{
+    font-size: calc(5px + 2vmin);
+    text-align: center; 
+    width: 20rem;
+}
+
+.about-divider{height: 15rem; width: 1px; background-color: whitesmoke;}

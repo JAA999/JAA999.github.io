@@ -30,7 +30,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div className='about-content'>
-                    <img className='about-image' src='/josephart.JPEG' alt="Joseph Arteaga" width='300px' height='400px'/>
+                    <img className='about-image' src='/profileImg.JPEG' alt="Joseph Arteaga" width='400px' height='400px'/>
                   </div>
                 </div>
             </div>
