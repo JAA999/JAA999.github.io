@@ -15,7 +15,7 @@
     height: 40rem;
 }
 
-.image-container{
+.project-image{
     display: flex; 
     height: 10rem; 
     margin: 5%; 
@@ -23,9 +23,12 @@
     justify-content: center;
 }
 
+.project-image img{width: 100%;}
+
 .project-title{
     font-weight: 600; 
-    font-size: calc(8px + 2vmin);
+    font-size: calc(10px + 2vmin);
+    color: #156DC6;
     height: 5rem;
     text-align: center;
     margin: 1rem .2rem;
@@ -45,7 +48,7 @@
     font-weight: 300;
 }
 
-.divider{
+.project-divider{
     height: 10vh; 
     width: 1px; 
     background-color: white;

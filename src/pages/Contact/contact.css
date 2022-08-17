@@ -10,20 +10,20 @@
 
 .horizontal-content{display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-evenly;}
 
-.Contact{
+.contact-page{
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: #9ECEFB;
     color: whitesmoke
 }
 
-.email, .social-media{text-align: center;}
+.contact-email, .contact-social-media{text-align: center;}
 
 .email-link{text-decoration: none; color: whitesmoke; font-size: calc(10px + 2vmin);}
 
-.section-titles{font-size: calc(20px + 3vmin);}
+.contact-title{font-size: calc(30px + 3vmin); color: #156DC6;}
 
-.separator{
+.contact-divider{
     height: 50vh;
     width: 1px;
     background-color: whitesmoke;

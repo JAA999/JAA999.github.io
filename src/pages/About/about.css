@@ -7,14 +7,16 @@
     display: flex;
     flex-direction: column;
     margin-top: 8vh;
-    padding: 10vh 20vh;
+    padding: 10vh;
 }
 
-.about-hobbies, .about-overview, .about-links{margin-bottom: 5rem;}
+.about-titles{color: #156DC6; font-size: calc(30px + 3vmin); text-align: center;}
 
-.hobbies-content-title, .overview-content-title{text-align: center;}
+.about-hobbies, .about-overview, .supplement-links{margin-bottom: 5rem; padding: 2rem;}
 
-.overview-text, .hobbies-text{width: 40rem; font-size: calc(5px + 2vmin);}
+.about-hobbies, .about-overview{border-bottom: 1px solid whitesmoke;}
+
+.overview-text, .hobbies-text{width: 40rem; font-size: calc(10px + 2vmin);}
 
 .overview-text{text-align: right;}
 
@@ -22,45 +24,45 @@
 
 .overview-image, .hobbies-image{
     background-size: contain;
-    height: calc(20px + 20vmin);
-    width: calc(20px + 20vmin);
+    height: calc(30px + 20vmin);
+    width: calc(30px + 20vmin);
 }
 
-.hobbies-content, .overview-content{display: flex; flex-direction: column; flex-wrap: wrap;}
+.overview-content, .hobbies-content{display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-around; align-items: center;}
 
-.overview-content, .hobbies-content{display: flex; flex-direction: row; justify-content: space-around;}
-
-.about-links{
+.about-supplement{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.about-links{
+.about-supplement{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.music-links, .current-read{
+.supplement-links, .supplement-read{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.music-links a{
+.supplement-links a{
     text-decoration: none;
     color: white;
     display: flex;
     justify-content: center;
 }
 
-.current-read-content{
-    font-size: calc(5px + 2vmin);
+.music-title, .read-title{text-align: center;}
+
+.current-read{
     text-align: center; 
     width: 20rem;
+    font-size: calc(10px + 2vmin);
 }
 
 .about-divider{height: 15rem; width: 1px; background-color: whitesmoke;}

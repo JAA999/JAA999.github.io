@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
 
-.App {font-family: 'Oswald', sans-serif; background-color: #9ECEFB; color: #4286C6;}
+.home-page {font-family: 'Oswald', sans-serif; background-color: #9ECEFB; color: #4286C6;}
 
-.title{color: #156DC6; font-size: calc(30px + 2vmin); margin: 13vh 0; text-align: center;}
+.title{color: #156DC6; font-size: calc(30px + 3vmin); margin: 13vh 0; text-align: center;}
 
 .content{
   min-height: 92vh;
@@ -19,55 +19,53 @@
 
 .horizontal-content{display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-around;}
 
-/*
-#instagram{position: fixed; bottom: 3vh; right: 9vw;}
-#linkedin{position: fixed; bottom: 3vh; right:6vw;}
-#github{position: fixed; bottom: 3vh; right: 3vw;}
-*/
-
 #Home{
   font-size: calc(10px + 2vmin);
   font-family: 'Courier New', Courier, monospace;
   color: white;
-  margin-left: calc(13px + 5vw);
+  margin-left: calc(13px + 7vmin);
 }
 
-/*Landing Page*/
-.app-header{justify-content: space-around; margin-top: 5vh;}
+/*Landing Section*/
+.home-header{justify-content: space-around; margin-top: 5vh;}
 
-.logo{width: 30%; margin-top: 5vh;} /*Temporary placeholder for logo*/
+.logo{width: calc(100px + 70vmin); margin-top: 5vh;} /*Temporary placeholder for logo*/
 
 #title-first{margin: 0; font-size: 10vw;}
 
-/*Landing Page*/
-/*Roadmap Page*/
+/*Landing Section*/
+/*About Section*/
 
 .about-content{
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 30rem;
+  width: 34rem;
   margin: 0 0.5rem 2.3rem .5rem;
-  font-size: calc(7px + 2vmin);
 }
 
 .about-bio{
-  font-size: calc(7px + 2vmin);
+  width: 30rem;
+  font-size: calc(10px + 2vmin);
   text-align: center;
   line-height: 40px;
   color: #4286C6;
+  padding: 20px;
+  margin-bottom: 5rem;
+  border-left: 1px solid whitesmoke;
 }
 
-/*Roadmap Page*/
-/*Skills Page*/
-.app-skills{min-height: 70vh;}
+.about-image{margin: 0 5rem; margin-top: 3rem;}
+
+/*Landing Section*/
+/*Skills Section*/
+.home-skills{min-height: 70vh;}
 
 .skills-content{display: flex; list-style: none; font-size: calc(20px + 2vmin);}
 
 .skills-list, .skills-experience{list-style: none; padding: 0vh calc(10px + 6vmin);}
-/*Skills Page*/
-/*Projects Page*/
+/*Skills Section*/
+/*Projects Section*/
 
 .project{
   display: flex;
@@ -80,7 +78,4 @@
   font-size: calc(9px + 2vmin);
 }
 
-/*Projects Page*/
-/*Footer*/
-
-/*.app-footer{min-height: 30vh;}*/
+/*Projects Section*/

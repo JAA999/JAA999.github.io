@@ -8,7 +8,7 @@ class Project extends React.Component {
         if(this.props.project.src){
             return(
                 <div className="project">
-                    <div className='image-container'>
+                    <div className='project-image'>
                         <img src={this.props.project.src} alt={`${this.props.project.title} Project`}/>
                     </div>
                     <h3 className='project-title'>{this.props.project.title}</h3>
@@ -18,7 +18,7 @@ class Project extends React.Component {
                             <p>{this.props.project.primary}</p>
                             <p>{this.props.project.secondary}</p>
                         </div>
-                        <div className='divider'></div>
+                        <div className='project-divider'></div>
                         <div className='project-date'>
                             <p id='date-title'>Date</p>
                             <p>{this.props.project.year}</p>
@@ -35,7 +35,7 @@ class Project extends React.Component {
         }else{
             return(
                 <div className="project">
-                    <div className='image-container'>
+                    <div className='project-image'>
                         <IconContext.Provider value={{color: 'whitesmoke', size: '50%'}}><AiOutlineProject/></IconContext.Provider>
                     </div>
                     <h3 className='project-title'>{this.props.project.title}</h3>
@@ -45,7 +45,7 @@ class Project extends React.Component {
                             <p>{this.props.project.primary}</p>
                             <p>{this.props.project.secondary}</p>
                         </div>
-                        <div className='divider'></div>
+                        <div className='project-divider'></div>
                         <div className='project-date'>
                             <p id='date-title'>Date</p>
                             <p>{this.props.project.year}</p>
