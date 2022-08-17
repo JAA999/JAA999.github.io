@@ -21,11 +21,11 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: calc(5px + 2vmin);
+    font-size: calc(6px + 2vmin);
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     padding: 0 1rem;
@@ -36,7 +36,7 @@ export const NavLink = styled(Link)`
 
 export const Bars = styled(FaBars)`
     display: none;
-    color: #808080;
+    color: white;
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
